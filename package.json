@@ -1,0 +1,35 @@
+{
+  "name": "cupshe-axios",
+  "version": "0.0.1",
+  "description": "axios vue cupshe",
+  "author": "caiyong <yong.cai@kapeixi.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanjingcaiyong/cupshe-axios"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.7.3",
+    "axios": "^0.26.1",
+    "axios-retry": "^3.2.5",
+    "core-js": "^3.21.1",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.3"
+  },
+  "gitHead": "112ce0a10bd4a3cc514a9dd861f4e8ffd5671f2c"
+}
