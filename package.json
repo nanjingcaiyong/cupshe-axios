@@ -6,6 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/nanjingcaiyong/cupshe-axios"
@@ -25,11 +26,13 @@
   },
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.3",
-    "axios": "^0.26.1",
     "axios-retry": "^3.2.5",
     "core-js": "^3.21.1",
     "lodash": "^4.17.21",
     "qs": "^6.10.3"
+  },
+  "peerDependencies": {
+    "axios": "^0.26.1"
   },
   "gitHead": "112ce0a10bd4a3cc514a9dd861f4e8ffd5671f2c"
 }
