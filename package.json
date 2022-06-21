@@ -1,11 +1,17 @@
 {
   "name": "cupshe-axios",
-  "version": "0.0.1",
-  "description": "axios vue cupshe",
+  "version": "0.0.3",
+  "description": "c端 常用工具方法库",
   "author": "caiyong <yong.cai@kapeixi.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "keywords": [
+    "axios",
+    "vue",
+    "cupshe",
+    "client"
+  ],
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
